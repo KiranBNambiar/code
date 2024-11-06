@@ -1,0 +1,201 @@
+This is the first file in the repository
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITENewspaper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #01458d;
+            color: white;
+            padding: 10px;
+        }
+        header img {
+            width: 100px; 
+            height: auto;
+        }
+        .header-title {
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        nav {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            width: 200px;
+            margin-right: 30px;
+            border-radius: 5px;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px; 
+        }
+        article {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 30px; 
+        }
+        aside {
+            background-color: #d1ecf1;
+            padding: 15px;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            margin-top: 20px; 
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+        h3 {
+            color: #007BFF;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        nav ul li {
+            margin-bottom: 15px; 
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="clglogo.jpg" alt="College Logo"> 
+    <div class="header-title">
+        <h1>MITE</h1>
+        <!--<p>Where Stones turn into Diamonds</p>-->
+    </div>
+</header>
+
+<div class="container">
+    <nav>
+        <h2>Departments</h2>
+        <ul>
+            <li>Computer Science and Engineering</li>
+            <li>Information Science and Engineering</li>
+            <li>Electronics and Communication Engineering</li>
+            <li>Aeronautical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Mechatronics Engineering</li>
+            <li>MCA</li>
+            <li>MBA</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Department Details</h2>
+            <div class="grid">
+                <article>
+                    <h3>Computer Science</h3>
+                    <p>Focus on software development, algorithms, and computer architecture.</p>
+                </article>
+                <article>
+                    <h3>Electrical Engineering</h3>
+                    <p>Explore circuit design, power systems, and electronics.</p>
+                </article>
+                <article>
+                    <h3>Civil Engineering</h3>
+                    <p>Learn about structural design, construction, and urban planning.</p>
+                </article>
+                <article>
+                    <h3>Mechanical Engineering</h3>
+                    <p>Study dynamics, thermodynamics, and materials science.</p>
+                </article>
+                <article>
+                    <h3>Mechatronics Engineering</h3>
+                    <p>Integrate mechanical and electronic engineering principles.</p>
+                </article>
+                <article>
+                    <h3>Aeronautical Engineering</h3>
+                    <p>Focus on aircraft design and aerospace technologies.</p>
+                </article>
+                <article>
+                    <h3>Chemical Engineering</h3>
+                    <p>Learn about process design and chemical production.</p>
+                </article>
+                <article>
+                    <h3>Information Science</h3>
+                    <p>Study data management and information systems.</p>
+                </article>
+            </div>
+        </section>
+
+        <aside>
+            <h2>Recent Activities</h2>
+            <table>
+                <tr>
+                    <th>Event</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Robotics Workshop</td>
+                    <td>Oct 10, 2024</td>
+                </tr>
+                <tr>
+                    <td>Guest Lecture: AI Innovations</td>
+                    <td>Oct 15, 2024</td>
+                </tr>
+                <tr>
+                    <td>Annual Sports Meet</td>
+                    <td>Oct 20, 2024</td>
+                </tr>
+            </table>
+        </aside>
+    </main>
+</div>
+
+<footer>
+    <p>&copy; 2024 Mangalore Institute of Technology & Engineering. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
